@@ -1,0 +1,782 @@
+body {
+  background-color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Navbar {
+  overflow: hidden;
+  flex-wrap: wrap;
+  background: linear-gradient(90deg, #000000, #ff1493, #ff1493);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1px;
+  gap: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  width: 100%;
+}
+
+.flex-item {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 60px;
+  font-weight: 600;
+}
+
+.class-items .flex-item.item6 {
+  padding-right: 10px;
+}
+
+/* This is for logo*/
+.logo {
+  display: inline-block;
+  width: auto;
+}
+
+h3 {
+  position: relative;
+  top: -10px;
+}
+
+#my {
+  color: #ffffff;
+  font-size: 40px;
+  display: inline;
+  font-weight: 700;
+}
+
+#port {
+  color: #ff1493;
+  display: inline;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* This is for logo*/
+.flex-item:hover {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  /*background-color: teal;*/
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin: 80px;
+  margin-top: 150px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  width: 800px;
+  overflow: hidden;
+  flex-wrap: wrap;
+
+  /*background-color: red;*/
+
+}
+
+.image {
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  padding-top: 125px;
+  padding-right: 150px;
+
+  /*background-color: yellow;/* Basic styling */
+  body {
+    background-color: #000000;
+  }
+
+  .Navbar {
+    overflow: hidden;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #000000, #ff1493, #ff1493);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1px;
+    gap: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+  }
+
+  .flex-item {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 60px;
+    font-weight: 600;
+  }
+
+  .class-items .flex-item.item6 {
+    padding-right: 10px;
+  }
+
+  /* This is for logo*/
+  .logo {
+    display: inline-block;
+    width: auto;
+  }
+
+  #my {
+    color: #ffffff;
+    font-size: 40px;
+    display: inline;
+    font-weight: 700;
+  }
+
+  #port {
+    color: #ff1493;
+    display: inline;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  /* Hover effect for links */
+  .flex-item:hover {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+    text-decoration: underline;
+  }
+
+  /* Container styling */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 150px;
+    padding: 20px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    width: 800px;
+  }
+
+  .image {
+    height: 600px;
+    width: 600px;
+    padding-top: 125px;
+    padding-right: 150px;
+  }
+
+  .container .main .greet {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .container .main .name {
+    font-size: 45px;
+    color: #ff1493;
+    margin: 0;
+    font-weight: 80px;
+  }
+
+  .container .main .heading {
+    font-size: 50px;
+    color: #ff1493;
+    margin: 0;
+    font-weight: 100px;
+    padding-left: 30px;
+  }
+
+  .container .main .para {
+    color: white;
+    font-size: 18px;
+    margin-left: 80px;
+  }
+
+
+  /* Styling for the hover block */
+  .hover-block {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+  }
+
+  .contact:hover~.hover-block {
+    display: block;
+  }
+
+  */
+}
+
+
+.container .main .greet {
+  font-size: 40px;
+  color: #ffffff;
+  width: 600px;
+  margin: 0px;
+
+}
+
+.container .main .name {
+  font-size: 45px;
+  color: #ff1493;
+  width: 600px;
+  /*background-color: teal;*/
+  margin: 0px;
+  font-weight: 80px;
+}
+
+.container .main .heading {
+  font-size: 50px;
+  color: #ff1493;
+  /*background-color: yellow;*/
+  width: 600px;
+  margin: 0px;
+  font-weight: 100px;
+  padding-left: 30px;
+}
+
+.container .main .para {
+  display: inline;
+
+  color: white;
+  font-size: 18px;
+  /*background-color: red;*/
+  margin-left: 80px;
+}
+
+.section2 .text h2 {
+  display: flex;
+  /* Enables flexbox */
+  justify-content: center;
+  /* Centers items horizontally */
+  align-items: right;
+  /* Centers items vertically */
+  height: 30px;
+  width: 150px;
+  background-color: #ff1493;
+  color: white;
+  margin: 50px;
+  padding: 20px;
+
+}
+
+.section2 .text p {}
+
+.flex-item item6:hover {
+  background-color: #575757;
+}
+
+/* Styling for the hover block */
+.hover-block {
+  display: none;
+  position: fixed;
+  /* Fixed positioning to keep it centered */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Centering the block */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  /* Make sure it's on top of other content */
+}
+
+/* Show hover block when hovering over the contact link */
+.contact:hover~.hover-block {
+  display: block;
+}
+
+.but1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  background-color: #ff1493;
+  border-radius: 5px;
+  width: 150px;
+  height: auto;
+
+}
+
+.but1 a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.section2 {
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section2 .text h1 {
+  font-size: 32px;
+  background-color: #ff1493;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.section2 .text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.text {
+  color: white;
+}
+
+section {
+
+  background-color: white;
+  height: auto;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.about {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-left {
+  color: #ff1493;
+  padding-bottom: 5px;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  /*align-self: left;*/
+}
+
+.about-item2 {
+  color: black;
+  text-align: justify;
+  padding-top: 87px;
+  font-size: 18px;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*education details*/
+.timeline-head {
+  color: #ff1493;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 10px auto;
+  margin-bottom: 40px;
+}
+
+.time-container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+
+}
+
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.time-container:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.time-container:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.time-container:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.text-box h1 {
+  color: #ff1493
+}
+
+.text-box {
+  margin-left: 20px;
+  padding: 20px 20px;
+  background: #fff;
+  width: 450px;
+  height: 150px;
+  position: relative;
+  border-radius: 6px;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+
+.time-container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 52%;
+  right: 65px;
+  top: 32px;
+  z-index: 10;
+}
+
+.right-container img {
+  left: -10px;
+}
+
+
+.left-container {
+  left: -15px;
+}
+
+
+.right-container {
+  left: 49%;
+}
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100%
+  }
+}
+
+.text-box h2 {
+  font-weight: 600px;
+}
+
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.left-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+  right: -15.5px;
+}
+
+.right-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid white;
+  left: -15px;
+}
+
+@media screen and (max-width:600px) {
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .time-container {
+    width: 100px;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .text-box small {
+    margin-bottom: 10px;
+  }
+
+  .right-container {
+    left: 0;
+  }
+
+  .left-container img,
+  .right-container img {
+    left: 10px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
+}
+
+.edu-details {
+  font-size: 15px;
+  margin-bottom: -5px;
+}
+
+/* EDUCATION ENDS HERE*/
+/* SKILLS STARTS HERE*/
+/* General styles for the skills container */
+.Skills-container {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  /* Background color as black */
+  color: #ffffff;
+  /* White text color */
+  position: relative;
+  /* Ensures child elements are positioned relative to this */
+}
+
+/* Styles for skill headings */
+#skill-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ff1493;
+  /* Pink heading color */
+}
+
+/* Container styles for skill cards */
+.prog,
+.web-tech,
+.others {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Space between cards */
+}
+
+/* Style for each skill card */
+.prog-card1,
+.web-card1,
+.other-card1,
+.other-card2 {
+  background-color: transparent;
+  /* Transparent background for the entire card */
+  padding: 10px;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Ensure positioning context is local to the individual card */
+  transition: transform 0.3s ease;
+  /* Adds smooth hover effect */
+  z-index: 1;
+  /* Default z-index */
+}
+
+/* Adding scale effect on hover */
+.prog-card1:hover,
+.web-card1:hover,
+.other-card1:hover,
+.other-card2:hover {
+  transform: scale(1.05);
+  /* Scale effect on hover */
+  z-index: 10;
+  /* Ensures hovered card comes on top of others */
+}
+
+/* Image styles with white circular background */
+.prog-card1 img,
+.web-card1 img,
+.other-card1 img,
+.other-card2 img {
+  border-radius: 50%;
+  /* Makes the image circular */
+  background-color: white;
+  /* White background for the logo only */
+  object-fit: cover;
+  /* Ensures the image covers the container without stretching */
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  /* Space between image and white background */
+  transition: transform 0.3s ease;
+  /* Adds smooth hover effect */
+}
+
+/* Hover effect for images (slight rotation) */
+.prog-card1 img:hover,
+.web-card1 img:hover,
+.other-card1 img:hover,
+.other-card2 img:hover {
+  transform: rotate(10deg);
+  /* Rotate the image slightly */
+}
+
+/* Styles for card headings */
+.prog-card1 h3,
+.web-card1 h3,
+.other-card1 h3,
+.other-card2 h3 {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+/* Hidden card description initially */
+.prog-card1 .card-details,
+.web-card1 .card-details,
+.other-card1 .card-details,
+.other-card2 .card-details {
+  display: none;
+  /* Hidden initially */
+  position: absolute;
+  top: 10%;
+  /* Display card below the image */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+  /* Ensures card shows above other elements */
+}
+
+/* Show the card-details when hovering on the container */
+.prog-card1:hover .card-details,
+.web-card1:hover .card-details,
+.other-card1:hover .card-details,
+.other-card2:hover .card-details {
+  display: block;
+  /* Show card details on hover */
+  transition: opacity 0.3s ease-in-out;
+  z-index: 20;
+  /* Ensures card shows above other elements */
+}
+
+/*Portfolio Section*/
+.portfolio-head {
+  color: #ff1493;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  /* Set the fixed height for each card */
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures the image fills the card while maintaining aspect ratio */
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 18px;
+}
+
+.card:hover .card-title {
+  opacity: 1;
+}
